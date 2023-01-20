@@ -21,8 +21,14 @@ const Navbar = () => {
             <span>Kid</span>
             <Notifications className="icon"/>
             <img src="https://media.licdn.com/dms/image/C5603AQFVNicmGXZWDg/profile-displayphoto-shrink_100_100/0/1626875912993?e=1679529600&v=beta&t=dTgmw0grxA1ob1XQeoHyMJsjiSsase_TnZWUClwE7lQ" alt="" />
-            <div className="profile"></div>
-            <ArrowDropDown className="icon"/>
+            <div className="profile">
+                <ArrowDropDown className="icon"/>
+                <div className="options">
+                    <span>Settings</span>
+                    <span>Logout</span>
+                </div>
+            </div>
+            
         </div>
       </div>
     </div>
